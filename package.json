@@ -1,6 +1,6 @@
 {
   "name": "brain-games-ac",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Brain Games learning project",
   "main": "dist/index.js",
   "bin": {
@@ -31,5 +31,7 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-stage-0": "^6.24.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "readline-sync": "^1.4.9"
+  }
 }
