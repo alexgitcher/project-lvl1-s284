@@ -1,12 +1,5 @@
 import readlineSync from 'readline-sync';
-
-const isEven = num => num % 2 === 0;
-
-const attempts = 3;
-
-let counter = 0;
-
-const greeting = 'Welcome to the Brain Games!';
+import { isEven, attempts, greeting } from '../game-settings';
 
 const gameEven = () => {
   const rules = 'Answer "yes" if number even otherwise answer "no".\n';
@@ -18,7 +11,7 @@ const gameEven = () => {
 
   console.log(`Hello, ${name}!\n`);
 
-  for (; counter < attempts;) {
+  for (let i = 0; i < attempts;) {
     const question = Math.ceil(Math.random() * 100);
 
     console.log(`Question: ${question}`);
@@ -28,7 +21,7 @@ const gameEven = () => {
     const correctAnswer = isEven(question) ? 'yes' : 'no';
 
     if (answer === correctAnswer) {
-      counter += 1;
+      i += 1;
       console.log('Correct!');
     } else {
       console.log(`"${answer}" is wrong answer ;(. Correct answer was "${correctAnswer}".`);
