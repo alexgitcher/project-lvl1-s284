@@ -10,5 +10,9 @@ $ npm install brain-games-ac
 
 ### Use
 ```
-$ brain-games
+$ brain-even
+
+or
+
+$ brain-calc
 ```
