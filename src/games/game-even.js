@@ -1,5 +1,6 @@
 import readlineSync from 'readline-sync';
-import { isEven, attempts, greeting } from '../game-settings';
+import { attempts, greeting } from '../game-settings';
+import isEven from '../functions/is-even';
 
 const gameEven = () => {
   const rules = 'Answer "yes" if number even otherwise answer "no".\n';

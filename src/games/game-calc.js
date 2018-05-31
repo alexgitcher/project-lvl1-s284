@@ -1,5 +1,6 @@
 import readlineSync from 'readline-sync';
-import { calc, attempts, greeting } from '../game-settings';
+import { attempts, greeting } from '../game-settings';
+import calc from '../functions/calc';
 
 const gameCalc = () => {
   const rules = 'What is the result of the expression?\n';
