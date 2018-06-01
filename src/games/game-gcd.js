@@ -2,11 +2,12 @@ import { cons } from 'hexlet-pairs';
 import { generateNumber } from '../utils';
 import gameEngine from '../game-engine';
 
-const rule = 'Find the greatest common divisor of given numbers.\n';
+const rule = 'Find the greatest common divisor of given numbers.';
+
+const mod = (num, divider) => num % divider === 0;
 
 const greatestCommonDivisor = (num1, num2) => {
   const minNumber = num1 < num2 ? num1 : num2;
-  const mod = (num, divider) => num % divider === 0;
 
   const iter = (number1, number2, divisor) => {
     if (mod(number1, divisor) && mod(number2, divisor)) return divisor;
@@ -18,7 +19,7 @@ const greatestCommonDivisor = (num1, num2) => {
   return iter(num1, num2, minNumber);
 };
 
-const param = () => {
+const gameData = () => {
   const num1 = Math.ceil(generateNumber(100));
   const num2 = Math.ceil(generateNumber(100));
   const question = `${num1} ${num2}`;
@@ -26,6 +27,6 @@ const param = () => {
   return cons(question, correctAnswer.toString());
 };
 
-const gameGcd = () => gameEngine(rule, param);
+const gameGcd = () => gameEngine(rule, gameData);
 
 export default gameGcd;
