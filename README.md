@@ -22,69 +22,23 @@ $ brain-even
 $ brain-calc
 ```
 #### Sample
-```
-Welcome to the Brain Games!
-What is the result of the expression?
 
-May I have your name? Sam
-Hello, Sam!
+[![asciicast](https://asciinema.org/a/CIabEF7hCKBcgVu5cY2Y2OgpY.png)](https://asciinema.org/a/CIabEF7hCKBcgVu5cY2Y2OgpY)
 
-Question: 4 + 10
-Your answer: 14
-Correct!
-Question: 25 - 11
-Your answer: 14
-Correct!
-Question: 25 * 7
-Your answer: 175
-Correct!
-Congratulations, Sam!
-```
 
 ### Game 3 - Find the greatest common divisor
 ```
 $ brain-gcd
 ```
 #### Sample
-```
-Welcome to the Brain Games!
-Find the greatest common divisor of given numbers.
 
-May I have your name? Sam
-Hello, Sam!
+[![asciicast](https://asciinema.org/a/iQE2T9i4NM4SKZsgu0Jq8XIJe.png)](https://asciinema.org/a/iQE2T9i4NM4SKZsgu0Jq8XIJe)
 
-Question: 25 50
-Your answer: 25
-Correct!
-Question: 100 52
-Your answer: 4
-Correct!
-Question: 3 9
-Your answer: 3
-Correct!
-Congratulations, Sam!
-```
 
 ### Game 4 - Balance the number
 ```
 $ brain-balance
 ```
 #### Sample
-```
-Welcome to the Brain Game!
-Balance the given number.
 
-May I have your name? Sam
-Hello, Sam!
-
-Question: 215
-Your answer: 233
-Correct!
-Question: 4181
-Your answer: 3344
-Correct!
-Question: 355
-Your answer: 445
-Correct!
-Congratulations, Sam!
-```
+[![asciicast](https://asciinema.org/a/Q5BZFQyBhnn8jS1r5AQUSh7da.png)](https://asciinema.org/a/Q5BZFQyBhnn8jS1r5AQUSh7da)
