@@ -13,24 +13,9 @@ $ npm install -g brain-games-ac
 $ brain-even
 ```
 #### Sample
-```
-Welcome to the Brain Games!
-Answer "yes" if number even otherwise answer "no".
 
-May I have your name? Sam
-Hello, Sam!
+[![asciicast](https://asciinema.org/a/dROAyvNOVL5HjjMN0HMHieJkk.png)](https://asciinema.org/a/dROAyvNOVL5HjjMN0HMHieJkk)
 
-Question: 15
-Your answer: no
-Correct!
-Question: 6
-Your answer: yes
-Correct!
-Question: 7
-Your answer: no
-Correct!
-Congratulations, Sam!
-```
 
 ### Game 2 - Calculator
 ```
