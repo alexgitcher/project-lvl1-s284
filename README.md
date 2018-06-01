@@ -8,7 +8,7 @@
 $ npm install -g brain-games-ac
 ```
 
-### Game 1
+### Game 1 - Even or not
 ```
 $ brain-even
 ```
@@ -32,7 +32,7 @@ Correct!
 Congratulations, Sam!
 ```
 
-### Game 2
+### Game 2 - Calculator
 ```
 $ brain-calc
 ```
@@ -56,7 +56,7 @@ Correct!
 Congratulations, Sam!
 ```
 
-### Game 3
+### Game 3 - Find the greatest common divisor
 ```
 $ brain-gcd
 ```
@@ -76,6 +76,30 @@ Your answer: 4
 Correct!
 Question: 3 9
 Your answer: 3
+Correct!
+Congratulations, Sam!
+```
+
+### Game 4 - Balance the number
+```
+$ brain-balance
+```
+#### Sample
+```
+Welcome to the Brain Game!
+Balance the given number.
+
+May I have your name? Sam
+Hello, Sam!
+
+Question: 215
+Your answer: 233
+Correct!
+Question: 4181
+Your answer: 3344
+Correct!
+Question: 355
+Your answer: 445
 Correct!
 Congratulations, Sam!
 ```
