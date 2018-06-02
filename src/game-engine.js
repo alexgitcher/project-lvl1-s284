@@ -1,6 +1,9 @@
 import readlineSync from 'readline-sync';
 import { car, cdr } from 'hexlet-pairs';
-import { attempts, greeting } from './utils';
+
+const attempts = 3;
+
+const greeting = 'Welcome to the Brain Games!';
 
 export default (rule, gameData) => {
   console.log(greeting);
