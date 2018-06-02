@@ -42,3 +42,12 @@ $ brain-balance
 #### Sample
 
 [![asciicast](https://asciinema.org/a/Q5BZFQyBhnn8jS1r5AQUSh7da.png)](https://asciinema.org/a/Q5BZFQyBhnn8jS1r5AQUSh7da)
+
+
+### Game 5 - Find the missing number in progression
+```
+$ brain-progression
+```
+#### Sample
+
+[![asciicast](https://asciinema.org/a/kfuOwYHuBCJoL3wErLU2pIsEo.png)](https://asciinema.org/a/kfuOwYHuBCJoL3wErLU2pIsEo)
