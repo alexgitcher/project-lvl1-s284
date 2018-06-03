@@ -14,7 +14,7 @@ $ brain-even
 ```
 #### Sample
 
-[![asciicast](https://asciinema.org/a/J6EFblS4OzDTiZhjWtYu8l9R2.png)](https://asciinema.org/a/J6EFblS4OzDTiZhjWtYu8l9R2)
+<img src="https://images2.imgbox.com/77/5d/zBsTl0kV_o.gif" alt="Brain even sample">
 
 
 ### Game 2 - Calculator
