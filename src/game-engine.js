@@ -1,5 +1,4 @@
 import readlineSync from 'readline-sync';
-import { car, cdr } from 'hexlet-pairs';
 
 const attempts = 3;
 
@@ -15,18 +14,18 @@ export default (rule, gameData) => {
 
   for (let i = 0; i < attempts; i += 1) {
     const gameCondition = gameData();
-    const question = car(gameCondition);
+    const quest = gameCondition.question;
 
-    console.log(`Question: ${question}`);
+    console.log(`Question: ${quest}`);
 
     const answer = readlineSync.question('Your answer: ');
 
-    const correctAnswer = cdr(gameCondition);
+    const correctResult = gameCondition.correctAnswer;
 
-    if (answer === correctAnswer) {
+    if (answer === correctResult) {
       console.log('Correct!');
     } else {
-      console.log(`"${answer}" is wrong answer ;(. Correct answer was "${correctAnswer}".`);
+      console.log(`"${answer}" is wrong answer ;(. Correct answer was "${correctResult}".`);
       return;
     }
   }

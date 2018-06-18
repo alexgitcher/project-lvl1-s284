@@ -1,6 +1,6 @@
 {
   "name": "brain-games-ac",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Brain Games learning project",
   "bin": {
     "brain-even": "dist/bin/brain-even.js",
@@ -41,7 +41,6 @@
     "eslint-plugin-import": "^2.12.0"
   },
   "dependencies": {
-    "hexlet-pairs": "^1.0.7",
     "readline-sync": "^1.4.9"
   }
 }

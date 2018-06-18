@@ -1,4 +1,3 @@
-import { cons } from 'hexlet-pairs';
 import generateNumber from '../utils';
 import gameEngine from '../game-engine';
 
@@ -19,7 +18,7 @@ const gameData = () => {
   const question = number;
   const correctAnswer = isPrime(number) ? 'yes' : 'no';
 
-  return cons(question, correctAnswer);
+  return { question, correctAnswer };
 };
 
 const gamePrime = () => gameEngine(rule, gameData);

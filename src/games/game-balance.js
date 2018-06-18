@@ -1,4 +1,3 @@
-import { cons } from 'hexlet-pairs';
 import generateNumber from '../utils';
 import gameEngine from '../game-engine';
 
@@ -32,7 +31,10 @@ const gameData = () => {
   const num = Math.ceil(generateNumber(10000));
   const question = num;
   const correctAnswer = numBalance(num);
-  return cons(question, correctAnswer.toString());
+  return {
+    question,
+    correctAnswer: correctAnswer.toString(),
+  };
 };
 
 const gameBalance = () => gameEngine(rule, gameData);

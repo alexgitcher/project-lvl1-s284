@@ -1,4 +1,3 @@
-import { cons } from 'hexlet-pairs';
 import generateNumber from '../utils';
 import gameEngine from '../game-engine';
 
@@ -28,7 +27,10 @@ const gameData = () => {
 
   const question = progressoinQuestion.join(' ');
 
-  return cons(question, correctAnswer.toString());
+  return {
+    question,
+    correctAnswer: correctAnswer.toString(),
+  };
 };
 
 const gameProgression = () => gameEngine(rule, gameData);

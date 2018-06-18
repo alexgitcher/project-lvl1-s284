@@ -1,4 +1,3 @@
-import { cons } from 'hexlet-pairs';
 import generateNumber from '../utils';
 import gameEngine from '../game-engine';
 
@@ -23,7 +22,10 @@ const gameData = () => {
   const index = Math.round(generateNumber(2));
   const question = `${num1} ${operations[index]} ${num2}`;
   const correctAnswer = calc(num1, num2, index);
-  return cons(question, correctAnswer.toString());
+  return {
+    question,
+    correctAnswer: correctAnswer.toString(),
+  };
 };
 
 const gameCalc = () => gameEngine(rule, gameData);

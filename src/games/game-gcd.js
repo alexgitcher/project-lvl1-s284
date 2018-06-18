@@ -1,4 +1,3 @@
-import { cons } from 'hexlet-pairs';
 import generateNumber from '../utils';
 import gameEngine from '../game-engine';
 
@@ -24,7 +23,10 @@ const gameData = () => {
   const num2 = Math.ceil(generateNumber(100));
   const question = `${num1} ${num2}`;
   const correctAnswer = greatestCommonDivisor(num1, num2);
-  return cons(question, correctAnswer.toString());
+  return {
+    question,
+    correctAnswer: correctAnswer.toString(),
+  };
 };
 
 const gameGcd = () => gameEngine(rule, gameData);
